@@ -2,7 +2,7 @@
 based on twitter snowflake, changed a little.  
 
 ### changes
-* class -> enum. Simple ThreadSafe Singleton
+* class -> enum: simplest singleton ThreadSafe
 * node id Configurable: 
 
    ```instance(Integer.parseInt(System.getProperty("instance.id"))); ```
