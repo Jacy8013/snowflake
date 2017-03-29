@@ -5,7 +5,7 @@ package io.jacy.common.utils;
  * Created by Jacy on 2016/11/18.
  */
 public enum IdWorker {
-    instance(Integer.parseInt(System.getProperty("instance.id")));                      // 启动时自动识别配置结点ID
+    instance(Integer.parseInt(System.getProperty("instance.id")));                      // 识别配置中的节点ID
 
     private final long workerId;
     private final long epoch = 1454601600000L;                                          // 时间起始标记点(2016-02-05)
